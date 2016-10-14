@@ -1,0 +1,148 @@
+body{
+	background: #243841;
+	padding: 50px;
+	color:red;
+}
+#header {
+    background: #ffffff;
+    height: auto;
+}
+#header-header {
+    background: #ffffff;
+    height: 80px;
+    position: relative;
+}
+#header-menu{
+	background: #07b752;
+	height: 60px;
+}
+#content-image{
+	background: #ced1d9;
+	height: 470px;
+}
+button {
+    /* padding: 0; */
+    /* margin: 0; */
+    font-size: 15px;
+    /* padding: 5px; */
+    background: #07b752;
+    border: 0;
+    border: 11px solid #07b752;
+    color: white;
+    font-weight: bold;
+}
+.btnSearch {
+    font-size: 20px;
+    position: absolute;
+    /* width: 70%; */
+    right: 0;
+    /* float: right; */
+    padding: 20px;
+}
+.btnSearch- {
+    background: #07b752;
+    padding: 8px 8px 11px 0;
+}
+.logo {
+    padding: 30px;
+    font-size: 20px;
+    position: absolute;
+    /* width: 30%; */
+    left: 0;
+    color: #07b752;
+}
+input[type="text"] {
+    font-size: 15px;
+    border: 7px solid #07b752;
+    padding: 5px;
+}
+ul#menu {
+        list-style: none;
+    text-align: center;
+}
+li.menu {
+    display: inline-block;
+    padding: 18.5px 34px;
+    font-size: 20px;
+}
+li.menu:hover {
+	background: rgb(2, 120, 60);
+}
+li.menu a {
+    text-decoration: none;
+    color: white;
+}
+li.menu:first-Child {
+	    background: #f5c346;
+    padding-bottom: 50px;
+}
+
+ul.ulSecondMenu {
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+    height: auto;
+    background: #07b752;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: -33px;
+    background: rgb(2, 120, 60);
+}
+li.liSecondMenu {
+    /* float: left; */
+    /* padding: 5px; */
+    display: block;
+    padding: 12px 10px;
+    font-size: 17.8px;
+}
+.imgInfo{
+	position: absolute;
+    z-index: 3000;
+    background: white;
+    padding: 20px;
+    top: 500px;
+    color: rgb(2, 120, 60);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+button.button{
+	margin-top:5px;
+	color: rgb(2, 120, 60);
+	background: white;
+	border: 5px solid rgb(2, 120, 60);
+	padding: 10px;
+}
+h1#engagements {
+    background: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.list-engagement {
+    position: relative;
+}
+.list-engagement- {
+    height: auto;
+    background: grey;
+    width: 20%;
+    position: absolute;
+    padding: 24.5px;
+}
+.list-engagement-.list-engagement-1{
+	left: 0;
+	
+}
+.list-engagement-.list-engagement-2{
+	left: 24%;
+	margin-left: 15px;
+}
+.list-engagement-.list-engagement-3{
+	left: 48%;
+	margin-left: 35px;
+}
+.list-engagement-.list-engagement-4{
+	left: 72%;
+	margin-left: 50px;
+}

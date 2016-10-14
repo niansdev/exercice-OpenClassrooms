@@ -1,0 +1,60 @@
+@font-face{
+  src:url('../fonts/CaviarDreams.ttf');
+  font-family: 'font';
+}
+body{
+	background: #243841;
+	    padding: 20px 50px 0px;
+	font-family: 'font';
+}
+.header-header{
+	background: #ffffff;
+    padding: 30px;
+    font-size: 20px;
+	}
+#menu{
+	    background: #07b752;
+    border: 0;
+    border-radius: 0;
+	}
+.logo{
+	color: #07b752;
+	font-family:"Lucida Calligraphy";
+	}
+.search {
+    text-align: right;
+}
+.header-header,.logo,.search{
+	z-index:100;
+	}
+li{
+    padding: 0px 28px !important;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+	font-weight:bold;
+}
+#content-image{
+	background: #ced1d9;
+	height: 470px;
+}
+.imgInfo{
+	position: absolute;
+    z-index: 3000;
+    background: white;
+    padding: 20px;
+    top: 500px;
+    color: rgb(2, 120, 60);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+h1.title {
+    background: white;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+	z-index:100;
+}
